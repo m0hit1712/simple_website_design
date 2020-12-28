@@ -36,7 +36,15 @@
   font-size: 20px;
   letter-spacing: 2px;
   align-items: center;
-  
+  background-color: rgb(223, 213, 213);
+}
+.validation{
+        color: rgb(255, 0, 0);
+        letter-spacing: 0px;
+        font-size: 15px;
+        width: 60%;
+        margin-left: 20px;
+        display: none;
 }
 
 .button{
@@ -59,7 +67,7 @@
     letter-spacing: 0px;
     font-weight: bold;
 }
-#login-form{
+#register-form{
   margin-top: 100px;
   grid-template-columns: repeat(1, 1fr);
   letter-spacing: 1px;
@@ -67,7 +75,8 @@
 .form-control{
         font-size: 16px;
         padding: 8px;
-        width: 100%;
+        width: 90%;
+        margin-left: 20px;
         margin-top: 10px;
         border-radius: 5px;
 }
@@ -75,6 +84,7 @@
         font-size: 20px;
         padding: 5px;
         font-weight: bold;
+        margin-left: 20px;
 }
 .field{
         margin-top: 20px;
